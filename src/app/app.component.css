@@ -1,0 +1,108 @@
+section {
+    display: table;
+    margin: 8px;
+    
+  }
+  
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    width: 120px;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+  }
+  
+  .example-button-row button {
+    display: table-cell;
+    margin-right: 8px;
+    color: black;
+  }
+  
+  .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    color: #000;
+  }
+  
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    color: black;
+  }
+
+  .a{
+    color: rgb(251, 251, 255);
+    background-color: rgb(16, 16, 17);
+    margin-left: 20px;
+    ;
+  }
+
+  .nav_bar {
+    margin-left: auto;
+    margin-right: 50px;
+  }
+
+  .toolbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(16, 16, 17);
+    font-weight: 100;
+  }
+
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 20px;
+    
+    
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  
+  
