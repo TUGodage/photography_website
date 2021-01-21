@@ -15,7 +15,7 @@ const routes: Routes = [
     {path : 'about',component : AboutComponent},
     {path : 'album',component : AlbumComponent},
     {path : 'packages',component : PackagesComponent},
-    {path : 'contact',component : ContactComponent}
+   
   
 ];
 

@@ -10,11 +10,12 @@
   <section class="nav_bar">
     
     <div >
-      <a mat-button  target="_blank" class="a" routerLink="/">Home</a>
-      <a mat-button  target="_blank" class="a" routerLink="/about">About Us</a>
-      <a mat-button  target="_blank" class="a" routerLink="/album">Albums</a>
-      <a mat-button  target="_blank" class="a" routerLink="/packages">Packages</a>
-      <a mat-button  target="_blank" class="a" routerLink="/contact">Contact</a>
+  
+      <a mat-button  target="_blank" class="a" href="/">Home</a>
+      <a mat-button  target="_blank" class="a" href="#section2">About Us</a>
+      <a mat-button  target="_blank" class="a" href="#section3">Albums</a>
+      <a mat-button  target="_blank" class="a" href="#section4">Packages</a>
+      
     </div>
   </section>
   
@@ -26,19 +27,30 @@
     <div>
       <router-outlet></router-outlet>
     </div>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" style="margin-top: 20px; background-color: black;">
       <div class="container">
         <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Add font awesome icons -->
-<a href="https://www.facebook.com/profile.php?id=100010750185515" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-
-<a href="#" class="fa fa-linkedin"></a>
-
-<a href="#" class="fa fa-instagram"></a>
+<div class="icon">
+  <a href="https://www.facebook.com/profile.php?id=100010750185515" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  
+  <a href="#" class="fa fa-linkedin"></a>
+  
+  <a href="#" class="fa fa-instagram"></a>
 </div>
+
+</div>
+<div class="detail" style="margin-top: 10p;">
+                
+  <p style="color: darkgray;">Photograper : shohen de silva</p>
+  <p style="color: darkgray;"> Mobile : 0702164798</p>
+  <P style="color: darkgray;">email : shohendesilva@gmail.com</P>
+
+</div>
+
     </div>
     
   
